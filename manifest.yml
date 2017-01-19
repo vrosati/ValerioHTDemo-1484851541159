@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ValerioHTDemo
+  host: ValerioHTDemo
+  disk_quota: 1024M
+  services:
+  - ValerioHTDemo-cloudantNoSQLDB
